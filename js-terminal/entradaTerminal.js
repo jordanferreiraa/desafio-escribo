@@ -9,17 +9,14 @@ function somatorioMultiplos() {
   }
 
   let soma = 0
-  let numerosDivisiveis = []
 
   for (let i = 1; i < numero; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
       soma += i
-      numerosDivisiveis.push(i)
     }
   }
 
-  console.log(`Soma final: ${soma}`)
-  console.log(`Numeros divisiveis por 3 ou 5: ${numerosDivisiveis}`)
+  return soma
 }
 
-somatorioMultiplos()
+console.log(somatorioMultiplos())
