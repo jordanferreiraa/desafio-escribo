@@ -20,15 +20,20 @@ body {
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
 }
 
 input {
   padding: 5px;
-  margin: 2rem .5rem auto auto;
+  margin: 1rem 0 .5rem 0;
 }
 
 button {
+  margin-left: 1rem;
   padding: .6rem;
   cursor: pointer;
   background-color: #020e26;
